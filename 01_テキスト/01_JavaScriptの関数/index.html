@@ -9,6 +9,22 @@
   <body>
     <h1>JavaScriptの関数</h1>
 
-    <script src="main.js"></script>
+    <script src="main.js">
+      const f1 = function (n) {
+        return 3 * n + 1
+      }
+      const f2 = function (n) {
+        return 10 ** n
+      }
+      const f3 = function (n) {
+        return f1(n) + f2(n)
+      }
+      const multiply = function (x, y) {
+        return x * y
+      }
+      const plusRound = function (x, y) {
+        return Math.round(x + y)
+      }
+    </script>
   </body>
 </html>
